@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <div class="survey">
+  <main>
+
+<!-- top of the page -->
+
+
+<h1 id="title">Favorite Fruits</h1>
+    <p id="description">I'd like to know about your favorite fruits. Tell me your opinions!
+    </p>
+
+
+<!-- FIRST SET OF ELEMENTS  --> 
+<!-- FIRST SET OF ELEMENTS  --> 
+<!-- FIRST SET OF ELEMENTS  --> 
+
+
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name: <input id="name" name="name" type="text" required placeholder="Enter name here..."/></label>
+</fieldset>
+<fieldset>
+<label for="email" id="email-label">Email: <input id="email" name="email" type="email" required placeholder="Enter email here..."/></label>
+</fieldset>
+<fieldset>
+<label for="age" id="number-label">Age: <input id="number" type="number" name="dropdown" min="8" max="130" required placeholder="Select Age"/></label>
+</fieldset>
+
+
+<!-- END OF FIRST SET OF ELEMENTS  --> 
+<!-- END OF FIRST SET OF ELEMENTS  --> 
+<!-- END OF FIRST SET OF ELEMENTS  --> 
+
+
+<!-- FRUITS I LIKE -->
+
+
+<fieldset>
+  <label>What fruits do you like?</label>
+ <label>
+  <input name="checkboxes" value="apples" type="checkbox" class="input-checkbox">
+  Apples
+  </label>
+  <label>
+  <input name="checkboxes" value="bananas" type="checkbox" class="input-checkbox">
+  Bananas
+  </label>
+  <label>
+  <input name="checkboxes" value="strawberries" type="checkbox" class="input-checkbox">
+  Strawberries
+  </label>
+  <label>
+  <input name="checkboxes" value="Cherries" type="checkbox" class="input-checkbox">
+  Cherries
+  </label>
+  <label>
+  <input name="checkboxes" value="grapes" type="checkbox" class="input-checkbox">
+  Grapes
+  </label>
+  <label>
+  <input name="checkboxes" value="watermelon" type="checkbox" class="input-checkbox">
+  Watermelon
+  </label>
+  <label>
+  <input name="checkboxes" value="oranges" type="checkbox" class="input-checkbox">
+  Oranges
+  </label>
+  <label>
+    <input name="checkboxes" value="raspberries" type="checkbox" class="input-checkbox">
+  Raspberries
+  </label>
+  </fieldset>
+
+
+  <!-- END OF FRUITS I LIKE -->
+
+
+  <!-- BUY OR PICK -->
+
+
+  <fieldset>
+        <label>Do you prefer to buy or pick your fruit?</label>
+        <label for="buy"><input id="buy" value="buy" type="radio" name="preference" class="inline" checked /> Buy</label>
+        <label for="pick"><input id="pick" value="pick" type="radio" name="preference" class="inline" /> Pick</label>
+      </fieldset>
+
+
+  <!-- END OF BUY OR PICK -->
+
+
+ <!-- SWEET SOUR -->
+
+
+      <fieldset>
+        
+        <label for="sweetorsour">Do you prefer sweet or sour fruits?
+          <select id="dropdown" name="sweetorsour" type="sweetsour">
+            <option value="">(Select one)</option>
+            <option value="1">Sweet</option>
+            <option value="2">Sour</option>
+            <option value="3">Both</option>
+            <option value="4">Neither</option>
+          </select>
+        </label>
+        </fieldset>
+
+
+  <!-- END OF SWEET SOUR -->
+
+
+
+ <!-- TEXT -->
+
+
+      <fieldset>
+        <label for="opinion">What is your favorite fruit, and why?
+          <textarea id="opinion" name="opinion" rows="4" cols="40" placeholder="Type here..."></textarea>
+        </label>
+        </fieldset>
+
+ <!-- TEXT -->
+
+
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+    </main>
+    </div>
+    </body>

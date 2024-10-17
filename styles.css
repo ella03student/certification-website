@@ -1,0 +1,121 @@
+body {
+    background-color: #FFEECC;
+    margin: 1em auto;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+  
+  .survey {width: 80%;
+    background-color: #FFEECC;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    }
+  
+    fieldset {
+    border: none;}
+  
+  
+  h1 {
+  color: #FF1551;
+    /* Center horizontally*/
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 0
+  }
+  
+  input, select, textarea {
+    accent-color: #F89EB5;
+    color: #FF1551;
+    background-color: #FFDDCC;
+    border: none;
+    -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+  }
+  
+    p {
+    font-size: 24px;
+    font-family: Quicksand;
+    /* Center horizontally*/
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    margin: 0.9rem 0;
+  }
+  
+  input[type="text"] {
+    width: 60%;
+    height: 1.3rem;
+    font-size: 12px
+  }
+  
+  
+  input[type="email"] {
+    width: 61%;
+    height: 1.3rem;
+    font-size: 12px
+  }
+  
+  select[type="sweetsour"] {
+    width: 30%;
+    height: 1.4rem;
+    color: #FF1551;
+    margin-left: 10px;
+    font-size: 12px
+  }
+  
+  input[type="number"] {
+  height: 1.3rem;
+    width: 30%;
+    font-size: 12px
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1.2rem;
+    color: #FFEECC;
+    font-family: Shrikhand;
+    -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+    background-color: #FF1551;
+    border-color: #FF1551
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  textarea {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+    font-size: 12px
+  }
+  
+  ::placeholder {
+    color:  #F89EB5;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color:  #F89EB5;
+  }
+  
