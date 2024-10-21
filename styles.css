@@ -103,11 +103,13 @@ body {
   }
   
   textarea {
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      border-radius: 10px;
-      margin-top: 10px;
-    font-size: 12px
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  font-size: 12px;
+    font-family: Quicksand;
+  min-width: 29rem;
   }
   
   ::placeholder {
